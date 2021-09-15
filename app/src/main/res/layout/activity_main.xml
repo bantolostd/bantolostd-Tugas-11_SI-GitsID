@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_gits"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="70dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/main_form_bg"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selamat datang!"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="70dp"
+            android:textStyle="bold"
+            android:textSize="32dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi illum debitis ad possimus nihil sed nisi quasi ullam, saepe tenetur itaque omnis est! Aperiam exercitationem sequi, et sunt doloribus fugiat."
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+            <Button
+                android:id="@+id/btnMasuk"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:text="Masuk"
+                android:background="@drawable/tombol_bg"
+                android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/btnDaftar"
+                android:layout_marginLeft="20dp"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:text="Daftar"
+                android:background="@drawable/tombol_bg"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
